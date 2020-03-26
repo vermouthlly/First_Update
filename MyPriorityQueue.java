@@ -3,14 +3,14 @@
  */
 import java.util.*;
 
-public class PriorityQueue {
+public class MyPriorityQueue {
     private ArrayList<Integer> array;
 
-    public PriorityQueue() {
+    public MyPriorityQueue() {
         array = new ArrayList<Integer>();
     }
 
-    public PriorityQueue(ArrayList<Integer> list) {
+    public MyPriorityQueue(ArrayList<Integer> list) {
         array = new ArrayList<Integer>(list);
     }
 
@@ -76,7 +76,7 @@ public class PriorityQueue {
 
 
     public static void main(String[] args) {
-        PriorityQueue pq = new PriorityQueue();
+        MyPriorityQueue pq = new MyPriorityQueue();
         pq.push(2);
         pq.push(5);
         pq.push(1);
