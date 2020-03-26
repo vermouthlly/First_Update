@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PriorityQueue",
+            "request": "launch",
+            "mainClass": "PriorityQueue",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - town_judge",
             "request": "launch",
             "mainClass": "town_judge",

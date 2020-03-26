@@ -3,7 +3,7 @@
  */
 public class atoi {
 
-    public static int atoi(String str) {
+    public static int Atoi(String str) {
         String s = "0123456789";
 		str = str.trim();
 		if (str.isEmpty())
@@ -39,6 +39,6 @@ public class atoi {
 		}
     }
     public static void main(String[] args) {
-        System.out.println(atoi("-435"));
+        System.out.println(Atoi("-435"));
     }
 }
