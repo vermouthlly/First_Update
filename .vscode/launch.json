@@ -1,0 +1,168 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - town_judge",
+            "request": "launch",
+            "mainClass": "town_judge",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - top_k_frequent",
+            "request": "launch",
+            "mainClass": "top_k_frequent",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - str",
+            "request": "launch",
+            "mainClass": "str",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - threesum",
+            "request": "launch",
+            "mainClass": "threesum",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - letter_combination",
+            "request": "launch",
+            "mainClass": "letter_combination",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - substring_k_distinct",
+            "request": "launch",
+            "mainClass": "substring_k_distinct",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - atoi",
+            "request": "launch",
+            "mainClass": "atoi",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - shortest_path",
+            "request": "launch",
+            "mainClass": "shortest_path",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - subarray_with_k_integer",
+            "request": "launch",
+            "mainClass": "subarray_with_k_integer",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - remove_element",
+            "request": "launch",
+            "mainClass": "remove_element",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - remove_duplicates_from_array",
+            "request": "launch",
+            "mainClass": "remove_duplicates_from_array",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longest_substring_without_repeat",
+            "request": "launch",
+            "mainClass": "longest_substring_without_repeat",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - int_to_roman",
+            "request": "launch",
+            "mainClass": "int_to_roman",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - container_with_most_water",
+            "request": "launch",
+            "mainClass": "container_with_most_water",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longest_palindromic_substring_DP",
+            "request": "launch",
+            "mainClass": "longest_palindromic_substring_DP"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longest_palindromic_substring",
+            "request": "launch",
+            "mainClass": "longest_palindromic_substring"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - median_of_two_array",
+            "request": "launch",
+            "mainClass": "median_of_two_array"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - valid_parentheses",
+            "request": "launch",
+            "mainClass": "valid_parentheses"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - longest_common_prefix",
+            "request": "launch",
+            "mainClass": "longest_common_prefix"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - roman_to_int",
+            "request": "launch",
+            "mainClass": "roman_to_int"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - reverse_num",
+            "request": "launch",
+            "mainClass": "reverse_num"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - two_sum",
+            "request": "launch",
+            "mainClass": "two_sum"
+        }
+    ]
+}
