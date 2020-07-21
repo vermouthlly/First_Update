@@ -41,10 +41,16 @@ public class top_k_frequent {
             new PriorityQueue<Integer>((i1, i2) -> book.get(i1) - book.get(i2));
 
         // keep k top frequent elements in the heap
-        for (int n : book.keySet()) {
-            heap.add(n);
-            if (heap.size() > k)
+        // for (int n : book.keySet()) {
+        //     heap.add(n);
+        //     if (heap.size() > k)
+        //         heap.poll();
+        // }
+        for(Map.Entry<Integer, Integer> n : book.entrySet()) {
+            heap.add(n.getKey());
+            if(heap.size() > k) {
                 heap.poll();
+            }
         }
 
         // build output list

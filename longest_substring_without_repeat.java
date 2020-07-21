@@ -22,7 +22,7 @@ public class longest_substring_without_repeat {
     }
 
     public static void main(String[] args) {
-        String s = "abcdefabcdabcff";
+        String s = "abcdefcijkmlnop";
         System.out.println(lengthOfLongestSubstring(s));
     }
 }

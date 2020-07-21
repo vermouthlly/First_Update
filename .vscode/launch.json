@@ -2,6 +2,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - search_system",
+            "request": "launch",
+            "mainClass": "search_system",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - top_k_keywords",
+            "request": "launch",
+            "mainClass": "top_k_keywords",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - n_array_topk",
+            "request": "launch",
+            "mainClass": "n_array_topk",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lcs",
+            "request": "launch",
+            "mainClass": "lcs",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - add_two_num",
+            "request": "launch",
+            "mainClass": "add_two_num",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - odd_up_even_down",
+            "request": "launch",
+            "mainClass": "odd_up_even_down",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - quicksort",
+            "request": "launch",
+            "mainClass": "quicksort",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyPriorityQueue",
+            "request": "launch",
+            "mainClass": "MyPriorityQueue",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PriorityQueue",
             "request": "launch",
             "mainClass": "PriorityQueue",
