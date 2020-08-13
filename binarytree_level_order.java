@@ -19,10 +19,12 @@ public class binarytree_level_order {
     }
     
     public List<List<Integer>> levelOrder(TreeNode root) {
-        if(root == null)
-            return new ArrayList<>();
-        Queue<TreeNode> q = new LinkedList<>();
         List<List<Integer>> output = new ArrayList<>();
+
+        if(root == null)
+            return output;
+
+        Queue<TreeNode> q = new LinkedList<>();
         List<Integer> current_level = new ArrayList<>();
         q.add(root);
         while(!q.isEmpty()) {
@@ -38,7 +40,7 @@ public class binarytree_level_order {
                 current_level.add(current.val);
             }
             output.add(current_level);
-            current_level.clear();;
+            current_level = new ArrayList<>();
         }
         return output;
     }

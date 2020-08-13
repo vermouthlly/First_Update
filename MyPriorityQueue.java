@@ -7,11 +7,11 @@ public class MyPriorityQueue {
     private ArrayList<Integer> array;
 
     public MyPriorityQueue() {
-        array = new ArrayList<Integer>();
+        this.array = new ArrayList<Integer>();
     }
 
     public MyPriorityQueue(ArrayList<Integer> list) {
-        array = new ArrayList<Integer>(list);
+        this.array = new ArrayList<Integer>(list);
     }
 
     public boolean isEmpty() {
@@ -37,7 +37,7 @@ public class MyPriorityQueue {
     }
 
     private void popup(int index) {
-        while(index > 0 && array.get(index) > array.get(parent(index))) {
+        while(index > 0 && array.get(index) < array.get(parent(index))) {
             swap(index, parent(index));
             index = parent(index);
         }
@@ -46,17 +46,29 @@ public class MyPriorityQueue {
     public void pushdown(int index) {
         int l = left(index);
         int r = right(index);
-        int temp = index;
+        int temp1 = index;
+        int temp2 = index;
         int size = array.size();
-        if(l < size && array.get(index) < array.get(l)) {
-            temp = l;
+        if(l < size && array.get(index) > array.get(l)) {
+            temp1 = l;
         }
-        if(r < size && array.get(index) < array.get(r)) {
-            temp = r;
+        if(r < size && array.get(index) > array.get(r)) {
+            temp2 = r;
         }
-        if(temp != index) {
-            swap(index, temp);
-            pushdown(temp);
+        if(temp1 != index && temp2 != index) {
+            if(array.get(temp1) >= array.get(temp2)) {
+                swap(index, temp2);
+                pushdown(temp2);
+            }else{
+                swap(index, temp1);
+                pushdown(temp1);
+            }
+        }else if(temp1 != index) {
+            swap(index, temp1);
+            pushdown(temp1);
+        }else if(temp2 != index) {
+            swap(index, temp2);
+            pushdown(temp2);
         }
     }
 
@@ -68,7 +80,7 @@ public class MyPriorityQueue {
     public int pop() {
         int result = array.get(0);
         int last = array.size() - 1;
-        array.set(0, array.get(last));
+        swap(0, last);
         array.remove(last);
         pushdown(0);
         return result;
@@ -82,10 +94,14 @@ public class MyPriorityQueue {
         pq.push(1);
         pq.push(11);
         pq.push(7);
-        System.out.println(pq.pop());
-        System.out.println(pq.pop());
-        System.out.println(pq.pop());
-        System.out.println(pq.pop());
-        System.out.println(pq.pop());
+        pq.push(123);
+        pq.push(8);
+        pq.push(5);
+        for(int i = 15; i > 0; i--) {
+            pq.push(i);
+        }
+        while(!pq.isEmpty()) {
+            System.out.println(pq.pop());
+        }
     }
 }

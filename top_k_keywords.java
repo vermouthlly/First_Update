@@ -17,19 +17,25 @@ public class top_k_keywords {
                 int val1 = book.get(s1);
                 int val2 = book.get(s2);
                 if(val1 != val2) {
-                    return val2 - val1;
+                    return val1 - val2;
                 }else {
-                    return s1.compareTo(s2);
+                    return s2.compareTo(s1);
                 }
             }
         });
 
-        heap.addAll(book.keySet());
+        for(String n : book.keySet()) {
+            heap.add(n);
+            if(heap.size() > k) {
+                heap.poll();
+            }
+        }
         List<String> answer = new ArrayList<>();
         while(!heap.isEmpty() && k > 0) {
             answer.add(heap.poll());
             k--;
         }
+        Collections.reverse(answer);
         return answer;
     }
 

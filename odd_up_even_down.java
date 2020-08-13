@@ -41,7 +41,7 @@ public class odd_up_even_down {
             current_even.next = null;
         }
 
-        ListNode s = head;
+        // ListNode s = head;
         // while(s != null) {
         //     System.out.println(s.val);
         //     s = s.next;
@@ -88,9 +88,9 @@ public class odd_up_even_down {
         i.next = null;
         ListNode ss = ou(a);
         ListNode s = ss;
-        // while(s != null) {
-        //     System.out.println(s.val);
-        //     s = s.next;
-        // }
+        while(s != null) {
+            System.out.println(s.val);
+            s = s.next;
+        }
     }
 }

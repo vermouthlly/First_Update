@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - reverse_k_node",
+            "request": "launch",
+            "mainClass": "reverse_k_node",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - first_missing_positive",
+            "request": "launch",
+            "mainClass": "first_missing_positive",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sprial_matrix",
+            "request": "launch",
+            "mainClass": "sprial_matrix",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - minimum_absolute_value",
+            "request": "launch",
+            "mainClass": "minimum_absolute_value",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - treasure_island2",
+            "request": "launch",
+            "mainClass": "treasure_island2",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - treasure_island",
+            "request": "launch",
+            "mainClass": "treasure_island",
+            "projectName": "LeetCode_11a60fdb"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - search_system",
             "request": "launch",
             "mainClass": "search_system",
